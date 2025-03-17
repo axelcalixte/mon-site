@@ -1,0 +1,16 @@
+lang: fr
+
+home: 
+  welcome: 
+
+menu_links: []
+extra_head: []
+
+# Metas plugin https://lume.land/plugins/metas/#description
+metas:
+  site: Axel CALIXTE
+  description: Blog personnel
+  title: "=title"
+  image: "=image"
+  twitter: "@AxelC_Kine"
+  lang: fr
