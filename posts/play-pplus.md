@@ -8,8 +8,8 @@ tags:
 
 ## Pré-requis
 
-1. Avoir un iso de Brawl NTSC via `!iso`
-2. Avoir télécharger [le dernier build de P+](https://projectplusgame.com/download)
+1. Avoir un iso de Brawl NTSC via `!iso` sur notre Discord
+2. Avoir téléchargé [le dernier build de P+](https://projectplusgame.com/download)
    - Dolphin Windows/Linux pour jouer en Netplay sur l'émulateur Dolphin
    - Offline / Wii ou Wii Lite en fonction de la capacité que vous utilisez avec votre Wii
 3. Disposer d'un adaptateur manette GameCube
@@ -21,9 +21,9 @@ tags:
 1. Extraire l'archive de Project+
 2. Insérer l'iso de Brawl dans le dossier `games` à l'intérieur de l'archive
 3. Démarrer Dolphin.exe
-4. Choisir Super Smash Bros. Brawl comme iso par défaut avec un clique droit depuis la liste des jeux
+4. Choisir Super Smash Bros. Brawl comme iso par défaut avec un clic droit depuis la liste des jeux
 
-   Désormais, en démarrant Offline ou Online via les `Launchers` dol, Project+ est censé démarrer ! 
+   Désormais, en démarrant Offline ou Online via les `*Launcher.dol`, Project+ est censé démarrer !
 
 ### Installer les drivers de l'adaptateur GCC
 
@@ -43,26 +43,26 @@ tags:
 
 Dans le menu `Config` puis `Path`:
 
-1. Ajouter le dossier Launcher qui contient les fichiers .dol de P+
+1. Ajouter le dossier Launcher qui contient les fichiers `*Launcher.dol` de P+
 2. Définir l'iso par défaut comme étant votre iso de Brawl téléchargé - Clic droit sur Super Smash Bros. Brawl > Set as default ISO
    > Votre hash doit correspondre à `d18726e6dfdc8bdbdad540b561051087`. Vous pouvez le calculer depuis Dolphin avec un clic-droit sur Super Smash Bros. Brawl > Properties > Info > MD5 Checksum -> Compute.
 3. Définir le chemin vers la carte SD
 
 Dans le menu `Controllers`, confirmez que votre Manette GameCube branchée sur le premier port de votre adaptateur est correctement configurée.
-En cliquant sur `Configure`, vous deviez voir inscrit _Adapter detected_ avec une fréquence de renseignée en Hz.
+En cliquant sur `Configure`, vous devriez voir inscrit _Adapter detected_ avec une fréquence renseignée en Hz.
 
 Dans le menu `Graphics`, on vous conseille de cocher l'option _Use fullscreen_ qui permet d'améliorer légèrement les performances de Dolphin.
-Nous n'aborderons pas les paramètres graphiques qui peuvent se révéler complèxes et dépendent de votre ordinateur. Toute fois, nous vous recommandons de ne pas activer le V-Sync.
+Nous n'aborderons pas les paramètres graphiques qui peuvent se révéler complèxes et dépendent de votre ordinateur. Toutefois, nous vous recommandons fortement de ne pas activer le V-Sync.
 
-A l'issue de cette configuration vous devriez pouvoir démarrer Super Smash Bros. Brawl depuis l'interface principale de Dolphin en cliquant sur l'image de Brawl et démarrer Project+pour la première fois en cliquant sur _Project+ Offline Launcher.dol_ !
+A l'issue de cette configuration vous devriez pouvoir démarrer Super Smash Bros. Brawl depuis l'interface principale en cliquant sur l'image de Brawl et démarrer Project+ pour la première fois en cliquant sur _Project+ Offline Launcher.dol_ !
 
 ### Rejoindre une partie
 
-Les options dont nous ne vous parlons pas ne sont pas à modifier pour jouer simplement et sont réservées à un usage plus avancé du netplay de Dolphin.
-En cliquant sur `Netplay`, vous accédez à la fenêtre de configuration du Netplay Dolphin qui vous permet de jouer en ligne sur les serveurs de Dolphin _Traversal Server_ ou en hébergeant vous même des parties sur votre réseau en _Direct Connection_.
+Les options non mentionnées ne sont pas à modifier pour jouer simplement et sont réservées à un usage plus avancé du netplay de Dolphin.
+En cliquant sur `Netplay`, vous accédez à la fenêtre de configuration du Netplay Dolphin qui vous permet de jouer en ligne sur les serveurs de Dolphin _Traversal Server_ ou en hébergeant vous-même des parties sur votre réseau en _Direct Connection_.
 
-1. **Restez en Traversal Server**
-1. Renseignez votre `Nickname` ou pseudo
+1. **Rester en Traversal Server**
+1. Renseigner votre `Nickname` ou pseudo
 1. Insérer le code de connection de votre adversaire pour le rejoindre. Il s'occupera de configurer le Netplay entre vous et de lancer le jeu !
 
 ### Héberger une partie
